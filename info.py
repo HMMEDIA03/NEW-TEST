@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22167428'))
 API_HASH = environ.get('API_HASH', 'f936053286f724b8a1df69729b28a6af')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6872655921:AAEY0BIXvfZP-3w66EYF9NCUEDTKTjN0GoU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7198330222:AAEkTTy1dIz0RMaUS9hGbZBRAHVjss4R-P0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -45,7 +45,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hmmedia:hmmedia@hmmedia0.lttkndx.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://thor:7thor7@thor.aymqpdl.mongodb.net/?retryWrites=true&w=majority&appName=thor")
 DATABASE_NAME = environ.get('DATABASE_NAME', "TESTBOT")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -65,7 +65,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/HMmedia_Movie')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HMmedia_movies_group/38')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002061065627'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001990420435'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'HMmedia_movies_group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
